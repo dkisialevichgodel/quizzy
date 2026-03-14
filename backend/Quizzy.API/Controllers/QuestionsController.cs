@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Quizzy.API.DTOs;
-using Quizzy.API.Services;
+using Quizzy.Logic.DTOs;
+using Quizzy.Logic.Services;
 
 namespace Quizzy.API.Controllers;
 

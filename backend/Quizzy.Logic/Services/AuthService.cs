@@ -2,12 +2,13 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using Quizzy.API.Data;
-using Quizzy.API.DTOs;
-using Quizzy.API.Models;
+using Quizzy.Data;
+using Quizzy.Logic.DTOs;
+using Quizzy.Data.Models;
 
-namespace Quizzy.API.Services;
+namespace Quizzy.Logic.Services;
 
 public class AuthService(AppDbContext db, IConfiguration config)
 {
