@@ -8,7 +8,7 @@ Visual overview of the Quizzy application and its main features.
 
 The landing page welcomes users with a hero section, key stats (difficulty levels, total questions, question types), and a call-to-action to start playing.
 
-![Home Page](main.png)
+![Home Page](1.%20main.png)
 
 ---
 
@@ -16,7 +16,7 @@ The landing page welcomes users with a hero section, key stats (difficulty level
 
 Each difficulty level has its own leaderboard showing top players ranked by their best score and number of attempts.
 
-![Leaderboards](leaderboard.png)
+![Leaderboards](2.%20leaderboard.png)
 
 ---
 
@@ -24,7 +24,7 @@ Each difficulty level has its own leaderboard showing top players ranked by thei
 
 Authenticated users can browse available quizzes displayed as cards with difficulty badge, description, question count, and time limit per question.
 
-![Choose a Quiz](chooseQuiz.png)
+![Choose a Quiz](3.%20chooseQuiz.png)
 
 ---
 
@@ -32,7 +32,7 @@ Authenticated users can browse available quizzes displayed as cards with difficu
 
 The quiz play screen presents one question at a time with a countdown timer, progress bar, question counter, and answer options (multiple choice or open-text input).
 
-![Quiz Gameplay](quizRun.png)
+![Quiz Gameplay](4.%20quizRun.png)
 
 ---
 
@@ -40,7 +40,7 @@ The quiz play screen presents one question at a time with a countdown timer, pro
 
 Questions can include media attachments such as images or audio to provide additional context or make the quiz more engaging.
 
-![Question with Media](questionWithMedia.png)
+![Question with Media](5.%20questionWithMedia.png)
 
 ---
 
@@ -48,7 +48,7 @@ Questions can include media attachments such as images or audio to provide addit
 
 After completing a quiz, a detailed result screen shows the total score, base score, time bonus, number of correct answers, and a per-question answer breakdown.
 
-![Quiz Result](quizResult.png)
+![Quiz Result](6.%20quizResult.png)
 
 ---
 
@@ -56,7 +56,7 @@ After completing a quiz, a detailed result screen shows the total score, base sc
 
 Users can view their full quiz attempt history in a table format showing quiz name, difficulty, score, completion status, and date. Completed attempts can be reviewed in detail.
 
-![Quiz History](quizHistory.png)
+![Quiz History](7.%20quizHistory.png)
 
 ---
 
@@ -64,7 +64,7 @@ Users can view their full quiz attempt history in a table format showing quiz na
 
 Admins have access to a management dashboard listing all quizzes with their difficulty, question count, time limit, and status. From here admins can create new quizzes or edit/delete existing ones.
 
-![Admin Dashboard](quizAdmin.png)
+![Admin Dashboard](8.%20quizAdmin.png)
 
 ---
 
@@ -72,7 +72,7 @@ Admins have access to a management dashboard listing all quizzes with their diff
 
 The quiz editor allows admins to manage all questions within a quiz — view question text, type, points, answer options with the correct answer highlighted, and add or remove questions.
 
-![Quiz Editor](quizEdit.png)
+![Quiz Editor](9.%20quizEdit.png)
 
 ---
 
@@ -80,4 +80,4 @@ The quiz editor allows admins to manage all questions within a quiz — view que
 
 A dialog for creating or editing individual questions. Admins can set the question text, type (multiple choice / open text), points, display order, answer options with correct answer toggle, and attach media files.
 
-![Question Editor](questionEdit.png)
+![Question Editor](10.%20questionEdit.png)
