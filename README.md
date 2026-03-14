@@ -81,7 +81,7 @@ npx vite build
 
 ## Screenshots
 
-See [images/readme.md](images/README.md) for a visual tour of the application with annotated screenshots.
+See [images/README.md](images/README.md) for a visual tour of the application with annotated screenshots.
 
 ## Project Structure
 ```text
