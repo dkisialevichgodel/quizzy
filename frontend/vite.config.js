@@ -16,4 +16,19 @@ export default defineConfig({
       },
     },
   },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/tests/setup.js',
+    server: {
+      deps: {
+        inline: ['vuetify']
+      }
+    },
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'html', 'lcov'],
+      exclude: ['**/node_modules/**', '**/src/tests/**', '**/*.config.js'],
+    },
+  },
 })
