@@ -1,0 +1,41 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.vs/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment overrides
+.env
+.env.*
+!.env.example
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# Visual Studio / Rider user files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Test and coverage output
+coverage/
+TestResults/
+
+# Local SQLite database
+backend/Quizzy.API/quizzy.db
+backend/Quizzy.API/quizzy.db-*

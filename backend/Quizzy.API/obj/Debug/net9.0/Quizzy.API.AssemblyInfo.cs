@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quizzy.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd8779ac8d35d9d0caf98e60b652acd7e265a7b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quizzy.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quizzy.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
