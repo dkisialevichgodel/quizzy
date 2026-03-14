@@ -1,6 +1,8 @@
 <Solution>
 <Project Path="Quizzy.Data/Quizzy.Data.csproj" />
 <Project Path="Quizzy.Logic/Quizzy.Logic.csproj" />
+<Project Path="Quizzy.Logic.Tests/Quizzy.Logic.Tests.csproj" />
+
 
   <Project Path="Quizzy.API/Quizzy.API.csproj" />
 </Solution>
