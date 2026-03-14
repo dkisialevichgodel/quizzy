@@ -79,9 +79,14 @@ npx vite build
 - Attempt results and history pages
 - Admin dashboard for managing quizzes and questions
 
+## Screenshots
+
+See [images/readme.md](images/readme.md) for a visual tour of the application with annotated screenshots.
+
 ## Project Structure
 ```text
 backend/Quizzy.API   ASP.NET Core API, EF Core models, services, controllers
 frontend/            Vue 3 application
+images/              Application screenshots and visual documentation
 README.md            Project overview and run instructions
 ```
