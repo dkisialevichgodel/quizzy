@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Quizzy.API.Data;
-using Quizzy.API.Models;
+using Quizzy.Data;
+using Quizzy.Data.Models;
 
 namespace Quizzy.API.Controllers;
 

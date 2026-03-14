@@ -1,6 +1,6 @@
 using F23.StringSimilarity;
 
-namespace Quizzy.API.Services;
+namespace Quizzy.Logic.Services;
 
 public class SimilarityService
 {

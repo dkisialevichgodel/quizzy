@@ -1,11 +1,13 @@
-namespace Quizzy.API.Models;
+namespace Quizzy.Data.Models;
 
-public class OpenTextAnswer
+public class AnswerOption
 {
     public int Id { get; set; }
     public int QuestionId { get; set; }
     public string Text { get; set; } = string.Empty;
-    public double SimilarityThreshold { get; set; } = 0.7;
+    public bool IsCorrect { get; set; }
+    public int? MediaId { get; set; }
 
     public Question Question { get; set; } = null!;
+    public MediaFile? Media { get; set; }
 }

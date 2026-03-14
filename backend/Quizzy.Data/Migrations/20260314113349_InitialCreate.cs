@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Quizzy.API.Migrations
+namespace Quizzy.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

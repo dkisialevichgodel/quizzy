@@ -2,14 +2,16 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Quizzy.API.Data;
-using Quizzy.API.Services;
+using Quizzy.Data;
+using Quizzy.Logic.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Database
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=quizzy.db"));
+    options.UseSqlite(
+        builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=quizzy.db",
+        b => b.MigrationsAssembly("Quizzy.Data")));
 
 // JWT Authentication
 var jwtKey = builder.Configuration["Jwt:Key"] ?? "QuizzySecretKey_ChangeThisInProduction_MinLength32!";

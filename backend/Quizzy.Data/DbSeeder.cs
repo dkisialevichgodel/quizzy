@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Quizzy.API.Models;
+using Microsoft.Extensions.Configuration;
+using Quizzy.Data.Models;
 
-namespace Quizzy.API.Data;
+namespace Quizzy.Data;
 
 public static class DbSeeder
 {

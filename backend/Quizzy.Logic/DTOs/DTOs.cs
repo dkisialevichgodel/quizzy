@@ -1,6 +1,6 @@
-using Quizzy.API.Models;
+using Quizzy.Data.Models;
 
-namespace Quizzy.API.DTOs;
+namespace Quizzy.Logic.DTOs;
 
 // ─── Auth ───
 public record RegisterRequest(string Username, string Email, string Password);

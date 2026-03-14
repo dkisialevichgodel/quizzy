@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using Quizzy.API.Data;
-using Quizzy.API.DTOs;
-using Quizzy.API.Models;
+using Quizzy.Data;
+using Quizzy.Logic.DTOs;
+using Quizzy.Data.Models;
 
-namespace Quizzy.API.Services;
+namespace Quizzy.Logic.Services;
 
 public class QuestionService(AppDbContext db)
 {

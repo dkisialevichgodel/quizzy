@@ -1,4 +1,4 @@
-namespace Quizzy.API.Models;
+namespace Quizzy.Data.Models;
 
 public class MediaFile
 {
